@@ -182,9 +182,9 @@ export const CTA = () => (
         alignItems="center"
         justifyContent="center"
       >
-        <Typography variant="caption" color="text.disabled">
+        {/*<Typography variant="caption" color="text.disabled">
           Accredidations
-        </Typography>
+        </Typography>*/}
       </Stack>
     </CardContent>
   </Card>
