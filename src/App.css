@@ -1,0 +1,33 @@
+.layout {
+  display: grid;
+  gap: clamp(2.5rem, 6vw, 4rem);
+  width: min(1100px, 92vw);
+  margin-inline: auto;
+}
+
+.services-section {
+  background: rgba(15, 23, 42, 0.45);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 24px;
+  padding: clamp(2rem, 4vw, 3rem);
+  color: #e2e8f0;
+  box-shadow: 0 24px 60px rgba(2, 8, 23, 0.45);
+}
+
+.site-footer {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.site-footer p {
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+body {
+  margin: 0;
+  background: radial-gradient(circle at 15% 15%, #06152d, #020617 55%, #01010a 100%);
+  color: #f8fafc;
+}
