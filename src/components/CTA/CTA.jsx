@@ -18,7 +18,7 @@ import { Services } from "../Services/Services";
 const featureItems = [
   "Rapid response teams ready day or night",
   "Licensed, insured, and certified professionals",
-  "Insurance claim support from start to finish",
+  "Insurance claim guidance",
 ];
 
 export const CTA = () => (
@@ -99,10 +99,10 @@ export const CTA = () => (
           Need help right now?
         </Typography>
         <Typography variant="body1" color="#cbd5f5" mb={3}>
-          Free Damage Assessment 24/7
+          Veteran Owned
         </Typography>
         <Typography variant="body1" color="#cbd5f5" mb={3}>
-          Serving Texas and Surrounding Areas
+          Serving South East Texas and Surrounding Areas
         </Typography>
         <Stack spacing={2}>
           <Stack
@@ -120,14 +120,35 @@ export const CTA = () => (
             <PhoneIcon sx={{ color: "#38bdf8" }} />
             <Box>
               <Typography variant="overline" color="#60a5fa">
-                Call or text
+                Call or Text for Information
               </Typography>
               <Typography variant="h6" color="#f8fafc">
-                {contact.phone}
+                {contact.info}
               </Typography>
             </Box>
           </Stack>
-
+          <Stack
+            direction="row"
+            spacing={1.5}
+            alignItems="center"
+            sx={{
+              borderRadius: 2,
+              px: 2.5,
+              py: 1.5,
+              background: "rgba(8, 15, 40, 0.9)",
+              border: "1px solid rgba(59, 130, 246, 0.35)",
+            }}
+          >
+            <PhoneIcon sx={{ color: "#38bdf8" }} />
+            <Box>
+              <Typography variant="overline" color="#60a5fa">
+                Call or Text for Emergency Support
+              </Typography>
+              <Typography variant="h6" color="#f8fafc">
+                {contact.emergency}
+              </Typography>
+            </Box>
+            </Stack>
           <Stack
             direction="row"
             spacing={1.5}

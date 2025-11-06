@@ -2,7 +2,7 @@ export const services = [
     {
         "id": "pack",
         "title": "Pack Out & Contents Restoration",
-        "description": "Secure removal, cleaning, and return of your valuables."
+        "description": "Secure removal, cleaning, and return of your valuables"
     },
     {
         "id": "moisture",
@@ -14,6 +14,8 @@ export const services = [
         "title": "Mitigation",
         "description": "Immediate action to stop further damage and loss"
     },
+    /*
+    
     {
         "id": "remediation",
         "title": "Remediation (Including Biohazard)",
@@ -29,5 +31,6 @@ export const services = [
         "title": "Public Adjusting",
         "description": "We handle your insurance claim so you can focus on getting back to normal"
     },
+    */
 ]
 
