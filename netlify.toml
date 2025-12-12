@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://www.cover6cat.com/:splat"
+  status = 301
+  force = true
