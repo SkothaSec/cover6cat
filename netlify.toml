@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/*"
+  from = "https://cover6cat.com/*"
   to = "https://www.cover6cat.com/:splat"
   status = 301
   force = true
